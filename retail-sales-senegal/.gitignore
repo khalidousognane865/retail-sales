@@ -1,0 +1,35 @@
+# Données (trop volumineuses pour Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environnement
+venv/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Power BI temp
+powerbi/*.pbix.tmp
+
+# Rapports volumineux générés
+reports/figures/*.png
+!reports/figures/.gitkeep
